@@ -3,5 +3,20 @@ body {
     background:#e5e5e5;
     color:#c66;
     font-size:72px;
-    padding-top: 140px;
+    padding-top: 390px;
+    background-image: url('background.jpg');
+    background-repeat: repeat;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	padding: .5em;
+	background: black;
+}
+a:hover {
+	color: #fd1a93;
+	background: #55BADA;
+	transition:.4s;
 }
