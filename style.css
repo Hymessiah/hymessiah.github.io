@@ -1,19 +1,18 @@
 body {
-    text-align:center;
-    font-size:72px;
-    background-image:url(background.jpg);
+    background-image:url(hymes1.jpg);
+    background-size:816px 612px;
     background-repeat:repeat;
     font-family:tahoma
 }
 
-a {
+#counter a {
     text-decoration:none;
     color:#FFF;
     padding:.5em;
     background:#FE0000
 }
 
-a:hover {
+#counter a:hover {
     color:#fd1a93;
     background:#55BADA;
     transition:.4s
@@ -22,9 +21,23 @@ a:hover {
 #counter {
     font-size:28px;
     float:right;
-    padding-top:10px;
+    padding-top:1%
 }
 
 #text {
-    padding-top:390px;
+    padding-top:25.3%;
+    text-align:center;
+    font-size:72px
+}
+
+#text a {
+    text-decoration:none;
+    color:#FFF;
+    padding:.5em;
+    background:#FE0000
+}
+
+#text a:hover {
+    color:#FFF;
+    background:#FE0000
 }
