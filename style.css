@@ -1,66 +1,52 @@
 body {
     background-image:url(background.jpg);
     background-repeat:repeat;
-    font-family:Helvetica,Arial,Verdana,sans-serif
+    font-family:Helvetica Neue,Helvetica,arial,freesans,clean,sans-serif
 }
 
-#counter {
-    font-size:1.7vw;
-    float:right;
-    padding-top:1%;
-    padding-right:1%;
-}
-
-#counter a {
+a {
     text-decoration:none;
     color:#FFF;
     padding:.5em;
-    background:#FE0000
+    border-radius:5px;
+    background:#F8914C;
+    -webkit-animation:mymove .1s infinite;
+/* Chrome, Safari, Opera */
+    animation:mymove .1s infinite
 }
 
-#counter a:hover {
-    color:#fd1a93;
-    background:#55BADA;
-    transition:.4s
-}
-
-#online {
-    font-size:1.7vw;
-    float:right;
-    padding-top:2%;
-    padding-right:1%;
-    clear:both;
-}
-
-#online a {
-    text-decoration:none;
-    color:#FFF;
-    padding:.5em;
-    background:#FE0000
-}
-
-#online a:hover {
-    color:#fd1a93;
-    background:#55BADA;
-    transition:.4s
-}
-
-#text {
-    padding-top:25%;
-    text-align:center;
-    font-size:4vw;
-}
-
-#text a {
-    text-decoration:none;
-    color:#FFF;
-    padding:.5em;
-    background:#FE0000
-}
-
-#text a:hover {
+a:hover {
     background:#55BADA;
     transition:.4s;
     color:#fd1a93
 }
 
+#container {
+    text-align:right;
+    font-size:28px
+}
+
+#counter {
+    padding-top:1%
+}
+
+#online {
+    clear:both
+}
+
+#text {
+    padding-top:25%;
+    text-align:center;
+    font-size:72px
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+from {
+    background-color:#54F81D
+}
+
+to {
+    background-color:#DB2029
+}
+}
