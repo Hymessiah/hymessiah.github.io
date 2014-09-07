@@ -5,10 +5,10 @@ body {
 }
 
 #counter {
-    font-size:28px;
+    font-size:1.7vw;
     float:right;
     padding-top:1%;
-    padding-right:1%
+    padding-right:1%;
 }
 
 #counter a {
@@ -24,10 +24,31 @@ body {
     transition:.4s
 }
 
+#online {
+    font-size:1.7vw;
+    float:right;
+    padding-top:2%;
+    padding-right:1%;
+    clear:both;
+}
+
+#online a {
+    text-decoration:none;
+    color:#FFF;
+    padding:.5em;
+    background:#FE0000
+}
+
+#online a:hover {
+    color:#fd1a93;
+    background:#55BADA;
+    transition:.4s
+}
+
 #text {
-    padding-top:390px;
+    padding-top:25%;
     text-align:center;
-    font-size:72px
+    font-size:4vw;
 }
 
 #text a {
@@ -43,23 +64,3 @@ body {
     color:#fd1a93
 }
 
-#online {
-    font-size:28px;
-    float:right;
-    padding-top:2%;
-    padding-right:1%;
-    clear:both
-}
-
-#online a {
-    text-decoration:none;
-    color:#FFF;
-    padding:.5em;
-    background:#FE0000
-}
-
-#online a:hover {
-    color:#fd1a93;
-    background:#55BADA;
-    transition:.4s
-}
