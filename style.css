@@ -1,8 +1,14 @@
 body {
-    background-image:url(hymes1.jpg);
-    background-size:816px 612px;
+    background-image:url(background.jpg);
     background-repeat:repeat;
-    font-family:tahoma
+    font-family:Helvetica,Arial,Verdana,sans-serif
+}
+
+#counter {
+    font-size:28px;
+    float:right;
+    padding-top:1%;
+    padding-right:1%
 }
 
 #counter a {
@@ -18,14 +24,8 @@ body {
     transition:.4s
 }
 
-#counter {
-    font-size:28px;
-    float:right;
-    padding-top:1%
-}
-
 #text {
-    padding-top:490px;
+    padding-top:390px;
     text-align:center;
     font-size:72px
 }
@@ -38,6 +38,28 @@ body {
 }
 
 #text a:hover {
+    background:#55BADA;
+    transition:.4s;
+    color:#fd1a93
+}
+
+#online {
+    font-size:28px;
+    float:right;
+    padding-top:2%;
+    padding-right:1%;
+    clear:both
+}
+
+#online a {
+    text-decoration:none;
     color:#FFF;
+    padding:.5em;
     background:#FE0000
+}
+
+#online a:hover {
+    color:#fd1a93;
+    background:#55BADA;
+    transition:.4s
 }
