@@ -10,7 +10,8 @@ h3 {
 }
 
 #HCB_comment_box blockquote {
-    color:#222
+    color:#383838;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #HCB_comment_box {
@@ -19,13 +20,15 @@ h3 {
 
 #HCB_comment_box .comment {
     background-color:#f8f8f8;
-    color:#111;
-    margin-bottom:20px;
-    font-family:'Roboto',sans-serif;
+    color:#3b5998;
+    border-bottom: 1px solid #ccc;
+    font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
     font-size:26px;
-    border:solid 2px #333
+    border:solid 1px #dfdfdf;
+    padding: 1em;
 }
 
 #HCB_comment_box .hcb-icon {
-    opacity:0
+    opacity:
 }
+
