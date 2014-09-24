@@ -32,10 +32,10 @@ main {
     font-size:72px
 }
 
+
 #form {
-    text-align:center;
-    margin:3% auto 5%
-}
+    margin: 50px 10% 10px 10%;
+} 
 
 /*  SECTIONS  */
 .section {
