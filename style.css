@@ -1,52 +1,97 @@
-body {
-    background-image:url(background.jpg);
-    background-repeat:repeat;
-    font-family:Helvetica Neue,Helvetica,arial,freesans,clean,sans-serif
-}
+/*
 
+Coded by Alex Johnson
+Hosted on Github
+
+*/
 a {
+    color:#fff;
     text-decoration:none;
-    color:#FFF;
-    padding:.5em;
-    border-radius:5px;
-    background:#F8914C;
-    -webkit-animation:mymove .1s infinite;
-/* Chrome, Safari, Opera */
-    animation:mymove .1s infinite
+    font-family:'Roboto',sans-serif;
+    font-size:36px
 }
 
-a:hover {
-    background:#55BADA;
-    transition:.4s;
-    color:#fd1a93
+body {
+    margin:0;
+    padding:0;
+    background-repeat:repeat;
+    background-color:#34495e
 }
 
-#container {
-    text-align:right;
-    font-size:28px
-}
-
-#counter {
-    padding-top:1%
-}
-
-#online {
-    clear:both
-}
-
-#text {
-    padding-top:25%;
+#header {
+    background-color:#c0392b;
     text-align:center;
+    padding-bottom:1.5em
+}
+
+main {
+    color:#fff;
+    text-align:center;
+    margin:4% auto 0;
+    font-family:'Lobster',sans-serif;
     font-size:72px
 }
 
-/* Chrome, Safari, Opera */
-@-webkit-keyframes mymove {
-from {
-    background-color:#54F81D
+#form {
+    text-align:center;
+    margin:3% auto 5%
 }
 
-to {
-    background-color:#732DAA
+/*  SECTIONS  */
+.section {
+    clear:both;
+    padding:0;
+    margin:0
+}
+
+/*  COLUMN SETUP  */
+.col {
+    display:block;
+    float:left;
+    margin:1% 0 1% 5%
+}
+
+.col:first-child {
+    margin-left:0
+}
+
+/*  GROUPING  */
+.group:before,.group:after {
+    content:"";
+    display:table
+}
+
+.group:after {
+    clear:both
+}
+
+.group {
+    zoom:/* For IE 6/7 */
+1
+}
+
+/*  GRID OF TWO  */
+.span_2_of_2 {
+    width:100%
+}
+
+.span_1_of_2 {
+    width:47.5%
+}
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+@media only screen and (max-width: 480px) {
+.col {
+    margin:1% 0 15%
+}
+}
+
+@media only screen and (max-width: 480px) {
+.span_2_of_2 {
+    width:100%
+}
+
+.span_1_of_2 {
+    width:100%
 }
 }
