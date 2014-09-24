@@ -32,10 +32,16 @@ main {
     font-size:72px
 }
 
-
 #form {
-    margin: 50px 10% 10px 10%;
-} 
+    margin:50px 10% 10px
+}
+
+#form a {
+    color:#333;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-size:16px
+}
 
 /*  SECTIONS  */
 .section {

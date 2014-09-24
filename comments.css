@@ -1,0 +1,31 @@
+h3 {
+    display:block;
+    font-size:30px;
+    -webkit-margin-before:1em;
+    -webkit-margin-after:1em;
+    -webkit-margin-start:0;
+    -webkit-margin-end:0;
+    font-weight:700;
+    text-decoration:underline
+}
+
+#HCB_comment_box blockquote {
+    color:#222
+}
+
+#HCB_comment_box {
+    color:#fff
+}
+
+#HCB_comment_box .comment {
+    background-color:#f8f8f8;
+    color:#111;
+    margin-bottom:20px;
+    font-family:'Roboto',sans-serif;
+    font-size:26px;
+    border:solid 2px #333
+}
+
+#HCB_comment_box .hcb-icon {
+    opacity:0
+}
