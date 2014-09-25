@@ -6,29 +6,26 @@ h3 {
     -webkit-margin-start:0;
     -webkit-margin-end:0;
     font-weight:700;
-    color: #3b5998;
+    color:#F14C23;
+    font-family:'Open Sans',sans-serif
 }
 
 #HCB_comment_box blockquote {
     color:#383838;
-    font-family: 'Open Sans', sans-serif;
+    font-family:'Open Sans',sans-serif
 }
 
 #HCB_comment_box {
-    color:#3b5998;
+    color:#3b5998
 }
 
 #HCB_comment_box .comment {
     background-color:#f8f8f8;
-    color:#3b5998;
-    border-bottom: 1px solid #ccc;
-    font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
+    color:#F14C23;
+    border-bottom:1px solid #ccc;
+    font-family:'Open Sans',sans-serif;
     font-size:26px;
     border:solid 1px #dfdfdf;
-    padding: 1em;
+    padding:1em;
+    font-weight:300
 }
-
-#HCB_comment_box .hcb-icon {
-    opacity:
-}
-

@@ -4,46 +4,42 @@ Coded by Alex Johnson
 Hosted on Github
 
 */
-a {
-    text-decoration:none;
-    font-family:'Helvetica Neue',Helvetica,Arial,'lucida grande',tahoma,verdana,arial,sans-serif;
-    font-size:16px;
-    font-weight:700;
-    height:27px;
-    color:#fff;
-    width:33%
+html {
+    max-width:80%;
+    margin:0 auto;
+    height:100%
 }
 
 body {
     margin:0;
     padding:0;
     background-repeat:repeat;
-    background-color:#e9eaed
+    background-color:#BFBFBF
 }
 
 #header {
-    background-color:#3b5998;
-    text-align:center;
-    padding-bottom:.2px;
-    border-bottom:1px solid #133783;
-    background-repeat:repeat-x;
-    background-size:auto;
-    background-position:0 0;
-    border:0;
-    -webkit-box-shadow:0 2px 2px -2px rgba(0,0,0,.52)
+    background-color:#30393F;
+    padding-bottom:2em
+}
+
+logo {
+    color:#E5E5E5;
+    font-family:'Righteous',cursive;
+    font-size:78px;
+    font-weight:900;
+    display:inline-block;
+    margin:1% auto
 }
 
 main {
-    color:#3b5998;
     text-align:center;
-    margin:7% auto 0;
-    font-family:'Roboto',sans-serif;
-    font-size:78px;
-    font-weight:900
+    color:#4C585F;
+    font-family:'Righteous',cursive;
+    font-size:48px
 }
 
 #form {
-    margin:150px 10%;
+    margin:150px 0;
     background-color:#fff;
     padding:2em;
     border:1px solid;
@@ -52,7 +48,7 @@ main {
 }
 
 #form a {
-    color:#6d84b4;
+    color:#D46C61;
     text-decoration:none;
     font-family:'Lucida Grans',sans-serif;
     font-size:12px
@@ -60,63 +56,4 @@ main {
 
 #form a:hover {
     text-decoration:underline
-}
-
-/*  SECTIONS  */
-.section {
-    clear:both;
-    padding:0;
-    margin:0
-}
-
-/*  COLUMN SETUP  */
-.col {
-    display:block;
-    float:left;
-    margin:1% 0 1% 1.6%
-}
-
-.col:first-child {
-    margin-left:0
-}
-
-/*  GROUPING  */
-.group:before,.group:after {
-    content:"";
-    display:table
-}
-
-.group:after {
-    clear:both
-}
-
-.group {
-    zoom:1
-/* For IE 6/7 */
-}
-
-/*  GRID OF TWO  */
-.span_2_of_2 {
-    width:100%
-}
-
-.span_1_of_2 {
-    width:49.2%
-}
-
-/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
-@media only screen and (max-width: 480px) {
-.col {
-    margin:1% 0
-}
-}
-
-@media only screen and (max-width: 480px) {
-.span_2_of_2 {
-    width:100%
-}
-
-.span_1_of_2 {
-    width:100%
-}
 }
