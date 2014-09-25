@@ -28,14 +28,18 @@ logo {
     font-size:78px;
     font-weight:900;
     display:inline-block;
-    margin:1% auto
+    margin:1% 0 1% 1%
 }
 
-main {
+.middlecontainer {
     text-align:center;
     color:#4C585F;
     font-family:'Righteous',cursive;
-    font-size:48px
+    font-size:60px
+}
+
+.middlecontainer p {
+    margin-top:3%
 }
 
 #form {
@@ -44,14 +48,14 @@ main {
     padding:2em;
     border:1px solid;
     border-color:#e5e6e9 #dfe0e4 #d0d1d5;
-    -webkit-border-radius:3px
+    -webkit-border-radius:3px;
+    -webkit-box-shadow:5px 4px 21px -1px rgba(0,0,0,0.6);
+    -moz-box-shadow:5px 4px 21px -1px rgba(0,0,0,0.6);
+    box-shadow:5px 4px 21px -1px rgba(0,0,0,0.6)
 }
 
 #form a {
-    color:#D46C61;
-    text-decoration:none;
-    font-family:'Lucida Grans',sans-serif;
-    font-size:12px
+    opacity:0
 }
 
 #form a:hover {
